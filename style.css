@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    z-index: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins';font-size: 22px;
+}
+
+:root {
+    --orange: coral;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.orange {
+    color: var(--orange);
+}
+
+
+.white {
+    color: white;
+}
+
+.rounded {
+    max-width: 100%;
+}
+
+.mr {
+    margin-top: 8rem !important;
+    font-size: 1.5rem;
+}
+
+.mt {
+    margin-top: 6rem !important;
+}
+
+.black {
+    background-color: black;
+}
+
+/* .woi {
+    padding-top: 10rem !important;
+} */
+
+.ws {
+    width: 30rem !important;
+}
+
+.mrs {
+    margin-top: 8rem !important;
+}
+
+.nav-item .nav-link:hover{
+    color: var(--orange);
+}
+
+.nav-item .active{
+    color: var(--orange);
+}
+
+.progress .progress-bar {
+    background-color: var(--orange);
+}
+
+.back {
+    margin-left: auto !important    ;
+}
+
+.alex {
+    width: 10rem;
+    margin-bottom: 10rem !important;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption {
+    color: black;
+}
+
+.carousel-control-prev-icon {
+    background-color: black;
+
+}
+
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+/* .pe {
+    margin: 50rem !important;
+} */
+
+/* @media screen and (max-width: 992px) {
+    .progress {
+        margin: auto;
+    }
+} */

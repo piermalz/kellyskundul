@@ -1,0 +1,84 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+/* Generic */
+.bg {
+  background-color: #ececec;
+}
+
+.cad {
+  background-color: white;
+  border-radius: 1.3rem;
+}
+
+.text-end {
+  margin-left: 20rem;
+}
+
+.csd {
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  padding-top: 8rem !important;
+  padding-bottom: 8rem !important;
+  border-radius: 1.3rem;
+}
+
+.rounded {
+  width: 20rem;
+}
+
+.txt {
+  color: #ececec;
+  width: 18rem;
+}
+
+.tr {
+  width: 35rem;
+}
+
+.btn1 {
+  width: 35rem;
+}
+
+.signin {
+  
+  font-weight: 700;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  vertical-align: middle;
+  align-items: center;
+  border-radius: 0.4rem;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  gap: 0.75rem;
+  color: black;
+  background-color: #ececec;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0, 0.87, 0.12, 1);
+  width: 35rem
+}
+
+.signin:hover {
+  transform: scale(1.025);
+}
+
+.signin:active {
+  transform: scale(0.975);
+}
+
+button svg {
+  height: 24px;
+  width: auto;
+}
+
+.end {
+  margin-left: 35rem !important;
+}
+
+/* 
+.fs-3 {
+  font-weight: 800;
+} */
